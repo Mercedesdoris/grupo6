@@ -1,0 +1,60 @@
+body{ /* color de fondo */
+    background-color: #f7efff; 
+    color: rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+h1{
+    font-size: 48px; /* Tamaño de la letra en pixeles */
+    font-weight: 900; /* Estilo o grosor de la letra */
+}
+
+#main-header{
+    background-color: rgb(206, 255, 127);
+    color: black;
+}
+h2{
+    font-weight: 200; 
+    font-size: 40px;
+    text-transform: initial; /* Mostrar los textos en minúscula */
+    letter-spacing: -1px;
+}
+#igualdad{
+    background-color: rgb(255, 161, 197);
+}
+#accesibilidad{
+    background-color: rgb(161, 255, 250);
+}
+#estereotipos{
+    background-color: rgb(167, 161, 255);
+}
+#seguridad{
+    background-color: rgb(255, 241, 161);
+}
+.row{
+    display:flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    margin-left: 0cm;
+}
+
+.margen{
+    margin-inline: 2cm;
+    margin-left:2cm;
+}
+.container{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+}
+
+.p{
+    text-align: left;
+}
